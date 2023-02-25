@@ -2,6 +2,21 @@ import {useState} from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '../hooks/useMediaQuery'
 
+const Link = ({page , selectedPage , setSelectedPage}) => {
+    const lowercasePage = page.toLowerCase()
+
+    return(
+        <AnchorLink
+            className={`${selectedPage === lowercasePage ? "text-yellow": "" } 
+              hover:text-yellow transition duration-500  `}
+        href = {`#${lowercasePage}`}
+        onClick = {() => setSelectedPage(lowercasePage)}
+        >
+        {page}
+        </AnchorLink>
+    )
+}
+
 function Navbar({selectedPage , setSelectedPage}) {
     const [isMenuToggled , setIsMenuToggled] = useState(false)
     const isAboveSmallScreens = useMediaQuery("(min-width:768px)")
@@ -13,16 +28,30 @@ function Navbar({selectedPage , setSelectedPage}) {
             
             {isAboveSmallScreens ? 
                 (
-                    <div className='flex justify-center'>
-                        
+                    <div className='flex justify-between gap-16 font-sans text-sm font-semibold'>
+                        <Link page = "Home" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Events" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "About" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Gallery" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Contact" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                     </div>
                 )
                 :
                 (
-                    <div>
-                        
-                    </div>
+                    <button
+                        onClick={() => setIsMenuToggled(!isMenuToggled)}
+                        className = ""
+                    >
+                        <img alt='menu' src="../assets/menu.svg" />
+                    </button>
                 )}
+            
+            {/* NOTE: Menu pop up*/}
+            {!isAboveSmallScreens && isMenuToggled && (
+                <div className='fixed right-0 bottom-0 h-full bg-blue w-[300px]'>
+                    
+                </div>
+            )}
 
         </div>
       </nav>
