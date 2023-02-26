@@ -38,10 +38,7 @@ function Navbar({selectedPage , setSelectedPage}) {
                 )
                 :
                 (
-                    <button
-                        onClick={() => setIsMenuToggled(!isMenuToggled)}
-                        className = ""
-                    >
+                    <button onClick={() => setIsMenuToggled(!isMenuToggled)} >
                         <img alt='menu'  src="../../public/menu.svg" />
                     </button>
                 )}
@@ -51,12 +48,19 @@ function Navbar({selectedPage , setSelectedPage}) {
                 <div className='fixed right-0 bottom-0 h-full bg-black w-[300px]'>
                     {/* NOTE: close icon */}
                     <div className = "flex justify-end p-10">
-                    <button
-                        onClick={() => setIsMenuToggled(!isMenuToggled)}
-                        className = ""
-                    >
-                        <img alt='menu'  src="../../public/menu.svg" />
-                    </button>
+                        <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                            <img alt='menu'  src="../../public/menu.svg" />
+                        </button>
+                    </div>
+                
+                    {/* NOTE: Menu items*/}
+                    
+                    <div className='flex flex-col gap-10 ml-[33%] text-2xl text-white' >
+                        <Link page = "Home" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Events" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "About" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Gallery" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Contact" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                     </div>
                     
                 </div>
