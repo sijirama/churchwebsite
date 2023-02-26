@@ -17,12 +17,13 @@ const Link = ({page , selectedPage , setSelectedPage}) => {
     )
 }
 
-function Navbar({selectedPage , setSelectedPage}) {
+function Navbar({isTopOfPage , selectedPage , setSelectedPage}) {
     const [isMenuToggled , setIsMenuToggled] = useState(false)
     const isAboveSmallScreens = useMediaQuery("(min-width:768px)")
+    const navbarBackground = isTopOfPage ? "" : "bg-red" 
 
   return (
-      <nav className={`z-40 w-full fixed top-0 py-6`}>
+      <nav className={` ${navbarBackground} z-40 w-full fixed top-0 py-6`}>
         <div className='flex items-center justify-between mx-auto w-5/6'>
             <h4 className='font-sans text-3xl font-bold m-0 '>FourSquare</h4> 
             
@@ -49,6 +50,7 @@ function Navbar({selectedPage , setSelectedPage}) {
                     {/* NOTE: close icon */}
                     <div className = "flex justify-end p-10">
                         <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                            {/* TODO: change the icon, youre still using the icon for opening the sidenav*/}
                             <img alt='menu'  src="../../public/menu.svg" />
                         </button>
                     </div>
