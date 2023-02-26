@@ -50,7 +50,7 @@ function Navbar({selectedPage , setSelectedPage}) {
             {!isAboveSmallScreens && isMenuToggled && (
                 <div className='fixed right-0 bottom-0 h-full bg-black w-[300px]'>
                     {/* NOTE: close icon */}
-                    <div className = "flex justify-end p-12">
+                    <div className = "flex justify-end p-10">
                     <button
                         onClick={() => setIsMenuToggled(!isMenuToggled)}
                         className = ""
