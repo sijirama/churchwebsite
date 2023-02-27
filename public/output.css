@@ -529,12 +529,12 @@ video {
   right: 0px;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .right-7 {
   right: 1.75rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-\[60\%\] {
@@ -562,12 +562,16 @@ video {
   display: flex;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
 .h-full {
   height: 100%;
 }
 
-.h-3 {
-  height: 0.75rem;
+.w-3 {
+  width: 0.75rem;
 }
 
 .w-5\/6 {
@@ -580,10 +584,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
 }
 
 .resize {
@@ -606,12 +606,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .gap-6 {
@@ -627,6 +627,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-darkgreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
+}
+
 .bg-deepblue {
   --tw-bg-opacity: 1;
   background-color: rgb(1 0 38 / var(--tw-bg-opacity));
@@ -637,18 +642,9 @@ video {
   background-color: rgb(220 68 146 / var(--tw-bg-opacity));
 }
 
-.bg-darkgreen {
-  --tw-bg-opacity: 1;
-  background-color: rgb(117 117 117 / var(--tw-bg-opacity));
-}
-
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(253 204 73 / var(--tw-bg-opacity));
-}
-
-.p-12 {
-  padding: 3rem;
 }
 
 .p-10 {
@@ -664,6 +660,11 @@ video {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -674,11 +675,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -687,14 +683,14 @@ video {
   font-weight: 600;
 }
 
-.text-yellow {
-  --tw-text-opacity: 1;
-  color: rgb(253 204 73 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(253 204 73 / var(--tw-text-opacity));
 }
 
 .transition {
@@ -762,6 +758,11 @@ body{
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(253 204 73 / var(--tw-border-opacity));
+}
+
+.hover\:bg-yellow:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 204 73 / var(--tw-bg-opacity));
 }
 
 .hover\:text-yellow:hover {

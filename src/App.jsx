@@ -4,7 +4,7 @@ import DotGroup from './components/DotGroup.jsx'
 import  useMediaQuery  from './hooks/useMediaQuery.jsx'
 
 function App() {
-  const [selectedPage , setSelectedPage] = useState("home")
+    const [selectedPage , setSelectedPage] = useState("home")
     const [isTopOfPage , setIsTopOfPage] = useState(true)
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
 
