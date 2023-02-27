@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import Navbar from './components/Navbar.jsx'
+import DotGroup from './components/DotGroup.jsx'
 import  useMediaQuery  from './hooks/useMediaQuery.jsx'
 
 function App() {
@@ -19,7 +20,14 @@ function App() {
   return (
     <div className="app bg-deepblue">
       <Navbar isTopOfPage={isTopOfPage}  selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+      <div className='w-5/6 mx-auto md:h-full'>
+        {isAboveMediumScreens && (
+            <DotGroup selectedPage = {selectedPage} setSelectedPage = {setSelectedPage} />
+        )}
+      </div>
     </div>
+
+
   )
 }
 
