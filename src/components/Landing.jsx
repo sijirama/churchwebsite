@@ -30,7 +30,7 @@ function Landing({setSelectedPage}) {
       </div>
 
       {/* NOTE: main section */}
-      <div className = "z-30 basis-2/5 mt-12 md:mt-32">
+      <div className ={`z-30 basis-2/5 mt-12 md:mt-32`}>
         {/*NOTE: this is the HEADER*/}
         
         <motion.div
@@ -44,8 +44,8 @@ function Landing({setSelectedPage}) {
             }} 
         >
 
-            <p className = "text-6xl">
-                Welcome
+            <p className = "text-6xl font-robotoSlab">
+                Welcome to
             </p>
             
         </motion.div>
