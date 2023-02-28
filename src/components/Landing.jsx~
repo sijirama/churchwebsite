@@ -16,7 +16,7 @@ function Landing({setSelectedPage}) {
       <div className = {`md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-13 ${bordertosee}`}>
         {isAboveMediumScreens ? (
             <div className='relative'>
-                <img className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full " alt='Landing Image' src='/src/assets/churchlandingimg.png' />
+                <img className="hover:filter hover:saturate-200" alt='Landing Image' src='/src/assets/churchlandingimg.png' />
             </div>
         ):(
             <div>
