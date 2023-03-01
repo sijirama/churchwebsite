@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 function Landing({setSelectedPage}) {
 
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
-    const bordertosee = "border-solid border-8"
+    const bordertosee = "border-solid border-8 md:border-8"
     //const bordertosee = ""
 
 
@@ -37,19 +37,51 @@ function Landing({setSelectedPage}) {
             initial = "hidden"
             whileInView="visible"
             viewport={{once:true , amount:0.5}}
-            transition = {{ transition:0.5 }}
+            transition = {{ duration:0.8 }}
             variants = {{
                 hidden : {opacity:0, x:-50},
                 visible: {opacity:1 , x: 0}
             }} 
         >
 
-            <p className = "text-6xl font-robotoSlab">
+            <p className = "text-2xl md:text-3xl font-robotoSlab z-10 text-center md:text-start">
                 Welcome to
             </p>
             
+
+            <p className = "text-5xl font-black font-robotoSlab z-10 text-center md:text-start">
+                Foursquare
+            </p>
+
+
+            <p className = "text-sm font-extralight font-robotoSlab z-10 text-center md:text-start my-3">
+                branch 1004, Victoria island, Lagos. 
+            </p>
+            
         </motion.div>
-        
+
+        <motion.div
+            className = "flex flex-row mt-5 justify-center md:justify-start"
+            initial = "hidden"
+            whileInView="visible"
+            viewport={{once:true , amount:0.5}}
+            transition = {{ delay : 0.3 , duration:0.8 }}
+            variants = {{
+                hidden : {opacity:0, x:-50},
+                visible: {opacity:1 , x: 0}
+            }}
+        >
+            <img alt="logo" className='md:max-h-16 max-h-14 w-auto' src="/src/assets/mixrl.png" />
+            
+            <button type="">
+            <a target="_blank" href='https://www.youtube.com' className='font-robotoSlab text-light'>
+                Join us on Mixrl
+            </a>
+            </button>
+
+        </motion.div>
+
+
       </div>
 
     </section>

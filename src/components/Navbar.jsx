@@ -2,7 +2,7 @@ import {useState} from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import useMediaQuery from '../hooks/useMediaQuery'
 
-const Link = ({page , selectedPage , setSelectedPage}) => {
+const Link = ({page , selectedPage , setSelectedPage  }) => {
     const lowercasePage = page.toLowerCase()
 
     return(
@@ -10,7 +10,9 @@ const Link = ({page , selectedPage , setSelectedPage}) => {
             className={`${selectedPage === lowercasePage ? "text-yellow": "" } 
               hover:text-yellow transition duration-500  `}
         href = {`#${lowercasePage}`}
-        onClick = {() => setSelectedPage(lowercasePage)}
+        onClick = {() => {
+                            setSelectedPage(lowercasePage) 
+                    }}
         >
         {page}
         </AnchorLink>
@@ -25,7 +27,10 @@ function Navbar({isTopOfPage , selectedPage , setSelectedPage}) {
   return (
       <nav className={` ${navbarBackground} z-40 w-full fixed top-0 py-6`}>
         <div className='flex items-center justify-between mx-auto w-5/6'>
-            <h4 className='font-sans text-3xl font-bold m-0 '>FourSquare</h4> 
+            {/*<h4 className='font-sans text-3xl font-bold m-0 '>FourSquare</h4> */}
+            
+            <img alt="logo" className='md:max-h-16 max-h-14 w-auto' src="/src/assets/logo.png" />
+            {/*<img alt="logo" className='max-h-10 w-auto' src="/src/assets/vertlogo.png" />*/}
             
             {isAboveSmallScreens ? 
                 (
@@ -46,7 +51,7 @@ function Navbar({isTopOfPage , selectedPage , setSelectedPage}) {
             
             {/* NOTE: Menu pop up*/}
             {!isAboveSmallScreens && isMenuToggled && (
-                <div className='fixed right-0 bottom-0 h-full bg-black w-[300px]'>
+                <div className='transition duration-300 ease-in-out fixed right-0 bottom-0 h-full bg-black w-[300px]'>
                     {/* NOTE: close icon */}
                     <div className = "flex justify-end p-10">
                         <button onClick={() => setIsMenuToggled(!isMenuToggled)}>

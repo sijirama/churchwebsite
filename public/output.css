@@ -570,6 +570,26 @@ video {
   margin-right: auto;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .ml-\[33\%\]{
   margin-left: 33%;
 }
@@ -580,6 +600,10 @@ video {
 
 .mt-16{
   margin-top: 4rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .flex{
@@ -598,6 +622,46 @@ video {
   height: 100%;
 }
 
+.max-h-1{
+  max-height: 0.25rem;
+}
+
+.max-h-5{
+  max-height: 1.25rem;
+}
+
+.max-h-2{
+  max-height: 0.5rem;
+}
+
+.max-h-3{
+  max-height: 0.75rem;
+}
+
+.max-h-7{
+  max-height: 1.75rem;
+}
+
+.max-h-16{
+  max-height: 4rem;
+}
+
+.max-h-12{
+  max-height: 3rem;
+}
+
+.max-h-10{
+  max-height: 2.5rem;
+}
+
+.max-h-8{
+  max-height: 2rem;
+}
+
+.max-h-14{
+  max-height: 3.5rem;
+}
+
 .w-3{
   width: 0.75rem;
 }
@@ -608,6 +672,10 @@ video {
 
 .w-\[300px\]{
   width: 300px;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .w-full{
@@ -628,6 +696,10 @@ video {
 
 .resize{
   resize: both;
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -713,12 +785,20 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.font-sans{
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.text-center{
+  text-align: center;
 }
 
 .font-robotoSlab{
   font-family: Roboto Slab, serif;
+}
+
+.font-sans{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-rubik{
+  font-family: Rubik, serif;
 }
 
 .text-2xl{
@@ -731,8 +811,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
+.text-5xl{
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -741,8 +821,21 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-black{
+  font-weight: 900;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.font-extralight{
+  font-weight: 200;
 }
 
 .font-semibold{
@@ -767,8 +860,16 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-300{
+  transition-duration: 300ms;
+}
+
 .duration-500{
   transition-duration: 500ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html,
@@ -862,6 +963,10 @@ body{
     height: 100%;
   }
 
+  .md\:max-h-16{
+    max-height: 4rem;
+  }
+
   .md\:max-w-\[600px\]{
     max-width: 600px;
   }
@@ -874,7 +979,24 @@ body{
     align-items: center;
   }
 
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
   .md\:justify-between{
     justify-content: space-between;
+  }
+
+  .md\:border-8{
+    border-width: 8px;
+  }
+
+  .md\:text-start{
+    text-align: start;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
