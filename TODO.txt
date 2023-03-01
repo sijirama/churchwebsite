@@ -1,1 +1,6 @@
 1. change icon tp close mobile navbar
+
+NOTE: To add/remove a page
+1. add/remove it from the navbars, both full screen and mobile at the apropriate index
+2. add/remove it from the Dotgroup at the apropriate index
+3. add/remove the id name from the component most outer <sction /> tag 

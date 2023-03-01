@@ -1,12 +1,13 @@
 import React from 'react'
 import useMediaQuery from '../hooks/useMediaQuery'
 import  {motion} from 'framer-motion'
+import SocialMediaIcons from "./SocialMediaIcons.jsx"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Landing({setSelectedPage}) {
 
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
-    const bordertosee = "border-solid border-8 md:border-8"
+    const bordertosee = "border-solid border-4 md:border-8"
     //const bordertosee = ""
 
 
@@ -61,7 +62,29 @@ function Landing({setSelectedPage}) {
         </motion.div>
 
         <motion.div
-            className = "flex flex-row mt-5 justify-center md:justify-start"
+            className = "flex flex-row mt-3 justify-center md:justify-start"
+            initial = "hidden"
+            whileInView="visible"
+            viewport={{once:true , amount:0.5}}
+            transition = {{ delay : 1 , duration:0.8 }}
+            variants = {{
+                hidden : {opacity:0, x:-50},
+                visible: {opacity:1 , x: 0}
+            }}
+        >
+            <img alt="logo" className='md:max-h-16 max-h-14 w-auto' src="/src/assets/mixrl.png" />
+            
+            <button type="">
+                <a target="_blank" href='https://www.youtube.com' className='font-robotoSlab text-light'>
+                    Join us on Mixrl
+                </a>
+            </button>
+
+        </motion.div>
+
+        {/*WARN: unused motion div*/}
+        <motion.div
+            className = "flex flex-row mt-2 justify-center md:justify-start"
             initial = "hidden"
             whileInView="visible"
             viewport={{once:true , amount:0.5}}
@@ -71,15 +94,8 @@ function Landing({setSelectedPage}) {
                 visible: {opacity:1 , x: 0}
             }}
         >
-            <img alt="logo" className='md:max-h-16 max-h-14 w-auto' src="/src/assets/mixrl.png" />
-            
-            <button type="">
-            <a target="_blank" href='https://www.youtube.com' className='font-robotoSlab text-light'>
-                Join us on Mixrl
-            </a>
-            </button>
-
         </motion.div>
+        
 
 
       </div>
