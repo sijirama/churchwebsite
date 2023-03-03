@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import Navbar from './components/Navbar.jsx'
 import Landing from './components/Landing.jsx'
 import Events from './components/Events.jsx'
+import About from './components/About.jsx'
 import DotGroup from './components/DotGroup.jsx'
 import  useMediaQuery  from './hooks/useMediaQuery.jsx'
 
@@ -23,17 +24,16 @@ function App() {
     <div className="app bg-deepblue">
       <Navbar isTopOfPage={isTopOfPage}  selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
       <div className='w-5/6 mx-auto md:h-full'>
-        {isAboveMediumScreens && (
-            <DotGroup selectedPage = {selectedPage} setSelectedPage = {setSelectedPage} />
-        )}
+        {isAboveMediumScreens && ( <DotGroup selectedPage = {selectedPage} setSelectedPage = {setSelectedPage} /> )}
         <Landing setSelectedPage = {setSelectedPage} />
       </div>
 
-      {/*TODO: add a line gradient here like in irreactive*/}
-      
-      <div className='w-5/6 mx-auto md:h-full'>
-        <Events />
+      <div className='w-full bg-deepblue'>
+        <div className='w-5/6 mx-auto md:h-full '>
+            <Events />
+        </div>
       </div>
+
     </div>
   )
 }

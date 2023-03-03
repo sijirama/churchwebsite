@@ -95,8 +95,6 @@ function Landing({setSelectedPage}) {
             }}
         >
         </motion.div>
-        
-
 
       </div>
 
