@@ -8,9 +8,9 @@ function Events() {
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
 
   return (
-      <section id="events" className='pt-10 pb-24 h-full '>  
-        <div className='md:flex md:flex-row-reverse md:justify-between md:gap-16 '>
-
+      <section id="events" className=' h-full flex flex-col '>  
+      {/*<div className='flex flex-col  md:flex md:flex-row-reverse md:justify-center md:align-middle md:gap-16 '>*/}
+      <div className='md:flex md:flex-row-reverse md:gap-16 mt-12 md:mt-20'>
 
 
         {/*NOTE: TEXT*/}

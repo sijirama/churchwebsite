@@ -51,7 +51,7 @@ function Landing({setSelectedPage}) {
             
 
             <p className = "text-5xl font-black font-robotoSlab z-10 text-center md:text-start">
-                Foursquare
+                Foursquare Chapel
             </p>
 
 
