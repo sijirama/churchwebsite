@@ -525,6 +525,10 @@ video {
   position: fixed;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -559,6 +563,10 @@ video {
 
 .z-40{
   z-index: 40;
+}
+
+.z-\[-1\]{
+  z-index: -1;
 }
 
 .m-0{
@@ -612,6 +620,42 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mt-32{
+  margin-top: 8rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -626,6 +670,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .max-h-10{
@@ -654,6 +702,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .max-w-\[400px\]{
@@ -712,6 +764,10 @@ video {
   gap: 1.75rem;
 }
 
+.gap-32{
+  gap: 8rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -744,6 +800,16 @@ video {
   background-color: rgb(253 204 73 / var(--tw-bg-opacity));
 }
 
+.bg-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(44 188 233 / var(--tw-bg-opacity));
+}
+
+.bg-red{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 68 146 / var(--tw-bg-opacity));
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -758,6 +824,22 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -768,6 +850,10 @@ video {
 
 .font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-rubik{
+  font-family: Rubik, serif;
 }
 
 .text-2xl{
@@ -788,6 +874,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-black{
@@ -955,6 +1046,10 @@ body{
 
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:w-3\/4{
+    width: 75%;
   }
 
   .md\:max-w-\[600px\]{
