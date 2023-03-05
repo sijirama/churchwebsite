@@ -92,13 +92,13 @@ function About() {
                     hidden:{opacity:0 , y:50},
                     visible:{opacity:1 , y:0}
                 }}
-            >
+                >
                 <div className = "relative h-32 mt-4">
-                    <div className='z-10'>
+                    <div className='z-1'>
                         <p className='font-robotoSlab font-semibold text-5xl'>03</p>
-                        <p className='font-robotoSlab font-semibold text-3xl '>Fridays</p>
+                        <p className='font-robotoSlab font-semibold text-3xl z-14 '>Fridays</p>
                     </div>
-                    <div className='w-1/2 md:w-3/4 h-32 bg-black absolute right-0 top-0 z-[-1]' />
+                    <div className='w-1/2 md:w-3/4 h-36 bg-black absolute right-0 top-0 z-[-1]'/ >
                 </div>
                 <p className='mt-2'>
                     Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.

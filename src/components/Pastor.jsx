@@ -2,13 +2,13 @@ import React from 'react'
 import {motion} from "framer-motion"
 import useMediaQuery from '../hooks/useMediaQuery.jsx'
 
-function Events() {
+function Pastor() {
 
     const bordertosee = "border-solid border-4 md:border-8"
     const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
 
   return (
-      <section id="events" className=' h-full flex flex-col '>  
+      <section id="pastor" className=' h-full flex flex-col '>  
       {/*<div className='flex flex-col  md:flex md:flex-row-reverse md:justify-center md:align-middle md:gap-16 '>*/}
       <div className='md:flex md:flex-row-reverse md:gap-16 mt-12 md:mt-20'>
 
@@ -57,4 +57,4 @@ function Events() {
   )
 }
 
-export default Events
+export default Pastor

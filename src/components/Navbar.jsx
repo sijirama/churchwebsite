@@ -36,7 +36,7 @@ function Navbar({isTopOfPage , selectedPage , setSelectedPage}) {
                 (
                     <div className='flex justify-between gap-16 font-sans text-sm font-semibold'>
                         <Link page = "Home" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
-                        <Link page = "Events" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Pastor" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "About" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "Gallery" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "Contact" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
@@ -64,7 +64,7 @@ function Navbar({isTopOfPage , selectedPage , setSelectedPage}) {
                     
                     <div className='flex flex-col gap-10 ml-[33%] text-2xl text-white' >
                         <Link page = "Home" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
-                        <Link page = "Events" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
+                        <Link page = "Pastor" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "About" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "Gallery" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    
                         <Link page = "Contact" selectedPage={selectedPage} setSelectedPage = {setSelectedPage} />    

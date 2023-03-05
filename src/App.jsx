@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
 import Navbar from './components/Navbar.jsx'
 import Landing from './components/Landing.jsx'
-import Events from './components/Events.jsx'
+import Pastor from './components/Pastor.jsx'
 import About from './components/About.jsx'
 import DotGroup from './components/DotGroup.jsx'
 import  useMediaQuery  from './hooks/useMediaQuery.jsx'
@@ -37,7 +37,7 @@ function App() {
 
       <div className='w-full bg-deepblue h-full'>
         <div className='w-5/6 mx-auto md:h-full '>
-            <Events />
+            <Pastor />
         </div>
       </div>
 
