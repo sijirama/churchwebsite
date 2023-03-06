@@ -18,7 +18,7 @@ function DotGroup({selectedPage , setSelectedPage}) {
 
         <AnchorLink
             className={`${selectedPage === "events" ? selectedStyles : `bg-darkgreen ${hovereffect}` } w-3 h-3 rounded-full`}
-            href = "#events"
+            href = "#pastor"
             onClick = {() => setSelectedPage("events")}
         />
 

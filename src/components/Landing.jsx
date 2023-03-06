@@ -1,7 +1,6 @@
 import React from 'react'
 import useMediaQuery from '../hooks/useMediaQuery'
 import  {motion} from 'framer-motion'
-import SocialMediaIcons from "./SocialMediaIcons.jsx"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Landing({setSelectedPage}) {
