@@ -1,4 +1,5 @@
 import About from './components/About'
+import Footer from './components/Footer'
 import Give from './components/Give'
 import Hero from './components/Hero'
 import Location from './components/Location'
@@ -16,6 +17,7 @@ function App() {
             <Services />
             <Location />
             <Give />
+            <Footer />
         </main>
     )
 }

@@ -2,7 +2,7 @@ export default function About() {
     return (
         <section className="bg-[#F5F5DC] w-full md:flex-row py-16 md:py-14 lg:py-16 grid md:grid-cols-2 gap-8 md:gap-4">
             <div className="flex items-center justify-center">
-                <p className="text-[#483C32] text-2xl md:text-3xl lg:text-5xl font-extrabold font-rubik tracking-widest">
+                <p className="text-[#483C32] text-4xl md:text-4xl lg:text-5xl font-extrabold font-rubik -tracking-wider lg:tracking-widest">
                     <span className="md:block">ONE </span>
                     <span className="md:block"> BIG </span>
                     <span className="md:block"> FAMILY</span>

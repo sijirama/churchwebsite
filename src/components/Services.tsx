@@ -1,4 +1,4 @@
-import Picture from '/sunset.jpg'
+import Picture from '/service.jpg'
 
 export default function Services() {
     return (
