@@ -1,5 +1,7 @@
 import About from './components/About'
+import Give from './components/Give'
 import Hero from './components/Hero'
+import Location from './components/Location'
 import { MiniNavbar } from './components/MiniNavbar'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
@@ -12,7 +14,8 @@ function App() {
             <Hero />
             <About />
             <Services />
-            <About />
+            <Location />
+            <Give />
         </main>
     )
 }
