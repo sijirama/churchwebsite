@@ -18,9 +18,9 @@ export default function Hero() {
             </p>
             <div className="flex gap-1 md:gap-2 lg:gap-1 items-center justify-center my-5 md:my-4">
                 <div className="w-1/12">
-                    <img src="/mxlr.png" className=" w-5/6 " />
+                    <img src="/mxlr.png" className=" w-2/3 " />
                 </div>
-                <p className="font-semibold md:font-light font-manrope text-red-900 text-base lg:text-lg">
+                <p className="font-semibold md:font-semibold font-manrope text-red-900 text-base lg:text-lg">
                     Join us on <span className="font-semibold underline">Mixlr</span>
                 </p>
             </div>
