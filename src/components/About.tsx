@@ -9,7 +9,7 @@ export default function About() {
                 </p>
             </div>
             <div className="text-center md:text-left px-11  border-red-600">
-                <p className="text-[#483C32] text-sm lg:text-base">
+                <p className="text-[#483C32] text-xs lg:text-sm">
                     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi
                     Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
                     Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est
