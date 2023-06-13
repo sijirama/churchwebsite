@@ -1,5 +1,6 @@
 import { MapContainer, TileLayer, Popup, Marker } from 'react-leaflet'
 import useScreenSize from '../hooks/useScreenSize'
+import 'leaflet/dist/images/marker-shadow.png'
 
 export default function Location() {
     const locationn: any = [6.437361400682429, 3.4328605354896244]
