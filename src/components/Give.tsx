@@ -1,4 +1,4 @@
-import { Modal, Button, Placeholder } from 'rsuite'
+import { Modal} from 'rsuite'
 import React from 'react'
 
 import { RiHandHeartLine } from 'react-icons/ri'
