@@ -7,7 +7,14 @@ export default function Location() {
     const zoom = screen === 'small' ? 12 : 17
 
     return (
-        <MapContainer center={locationn} zoom={zoom} scrollWheelZoom={false} style={{ height: '400px', width: '100%' }}>
+        <MapContainer
+            center={locationn}
+            zoom={zoom}
+            scrollWheelZoom={false}
+            style={{ height: '400px', width: '100%' }}
+            zoomControl={false}
+            dragging={false}
+        >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution="Map data © OpenStreetMap contributors"
