@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="w-full border border-red-900 py-32 md:py-36 lg:py-40 flex flex-col items-center justify-center">
+        <section className="w-full py-32 md:py-36 lg:py-40 flex flex-col items-center justify-center">
             <p className="font-normal md:font-semibold font-manrope text-lg md:text-xl text-center">
                 Welcome to{' '}
                 <span className="block my-1 font-extrabold text-4xl md:text-5xl lg:text-6xl lg:max-w-3xl -tracking-wider">
@@ -15,7 +15,7 @@ export default function Hero() {
                 <div className="w-1/12">
                     <img src="/mxlr.png" className=" w-5/6 " />
                 </div>
-                <p className="font-semibold md:font-light font-manrope text-red-900">
+                <p className="font-semibold md:font-light font-manrope text-red-900 text-base lg:text-lg">
                     Join us on <span className="font-semibold underline">Mixlr</span>
                 </p>
             </div>
