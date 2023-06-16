@@ -1,5 +1,3 @@
-import Logo from '/fstitleblack.png'
-
 export default function Prompt() {
     return (
         <section className="py-14 lg:py-20  flex items-center justify-center bg-white flex-col gap-7 lg:gap-20">

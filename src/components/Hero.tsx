@@ -13,7 +13,7 @@ export default function Hero() {
                     The Foursquare Gospel Church
                 </span>
             </p>
-            <p className="md:my-2 lg:my-3 font-manrope font-semibold text-sm md:text-base lg:text-xl">
+            <p className="md:my-2 lg:my-3 font-manrope font-bold text-lg md:text-xl lg:text-2xl">
                 1004, Victoria Island, Lagos.
             </p>
             <div className="flex gap-1 md:gap-2 lg:gap-1 items-center justify-center my-5 md:my-4">
