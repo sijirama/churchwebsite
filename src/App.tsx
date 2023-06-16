@@ -15,7 +15,9 @@ function App() {
             <Hero />
             <About />
             <Services />
-            <Location />
+            <div id="locate">
+                <Location />
+            </div>
             <Give />
             <Footer />
         </main>

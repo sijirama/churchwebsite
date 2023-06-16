@@ -1,4 +1,4 @@
-import { Modal} from 'rsuite'
+import { Modal } from 'rsuite'
 import React from 'react'
 
 import { RiHandHeartLine } from 'react-icons/ri'
@@ -8,7 +8,10 @@ export default function Give() {
     const handleClose = () => setOpen(false)
 
     return (
-        <section className="py-14 md:py-16 lg:py-20 px-14 flex flex-col gap-1 md:gap-3 items-center justify-center ">
+        <section
+            id="give"
+            className="py-14 md:py-16 lg:py-20 px-14 flex flex-col gap-1 md:gap-3 items-center justify-center "
+        >
             <div>
                 <RiHandHeartLine size={80} className="text-gray-600" />
             </div>

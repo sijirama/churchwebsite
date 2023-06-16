@@ -3,6 +3,7 @@ import Picture from '/service.jpg'
 export default function Services() {
     return (
         <section
+            id="service"
             style={{ backgroundImage: `url(${Picture})` }}
             className="py-14 md:py-16 lg:py-20 px-14 flex flex-col gap-1 md:gap-3 items-center justify-center text-white bg-cover bg-top bg-fixed"
         >

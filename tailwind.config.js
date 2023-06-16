@@ -7,7 +7,9 @@ export default {
                 manrope: ['Manrope', 'sans-serif'],
                 rubik: ['Rubik', 'sans-serif']
             },
-            colors: {}
+            colors: {
+                mylightgray: '#ede8e8'
+            }
         }
     },
     plugins: []
