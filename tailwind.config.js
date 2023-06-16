@@ -5,7 +5,8 @@ export default {
         extend: {
             fontFamily: {
                 manrope: ['Manrope', 'sans-serif'],
-                rubik: ['Rubik', 'sans-serif']
+                rubik: ['Rubik', 'sans-serif'],
+                kanit: ['Kanit', 'sans-serif']
             },
             colors: {
                 mylightgray: '#ede8e8'

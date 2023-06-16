@@ -15,7 +15,7 @@ export default function Give() {
             <div>
                 <RiHandHeartLine size={80} className="text-gray-600" />
             </div>
-            <div className="max-w-xl font-extrabold font-manrope text-center text-3xl md:text-4xl lg:text-5xl text-gray-600">
+            <div className="max-w-xl font-extrabold font-rubik text-center text-3xl md:text-4xl lg:text-5xl text-gray-600">
                 "Whoever is generous to the poor lends to the lord, and he will repay him for his deed."
             </div>
             <p className="text-gray-600 font-manrope text-sm md:text-base lg:text-lg my-2">Proverbs 19:16</p>

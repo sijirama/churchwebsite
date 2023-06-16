@@ -8,12 +8,12 @@ export default function Hero() {
         >
             <p className="font-normal md:font-semibold font-manrope text-lg md:text-xl text-center">
                 Welcome to{' '}
-                <span className="block my-1 font-extrabold text-4xl md:text-5xl lg:text-6xl lg:max-w-3xl -tracking-wider">
+                <span className="block my-1 font-extrabold text-4xl md:text-5xl lg:text-7xl lg:max-w-3xl -tracking-wider">
                     {' '}
                     The Foursquare Gospel Church
                 </span>
             </p>
-            <p className="md:my-2 lg:my-3 font-manrope text-sm md:text-base lg:text-xl">
+            <p className="md:my-2 lg:my-3 font-manrope font-semibold text-sm md:text-base lg:text-xl">
                 1004, Victoria Island, Lagos.
             </p>
             <div className="flex gap-1 md:gap-2 lg:gap-1 items-center justify-center my-5 md:my-4">
