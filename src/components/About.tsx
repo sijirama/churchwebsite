@@ -4,9 +4,9 @@ export default function About() {
     return (
         <section
             id="about"
-            className="bg-[#F5F5DC] w-full px-20 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
+            className="bg-[#F5F5DC] w-full px-12 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
         >
-            <div className="flex items-center justify-start flex-col">
+            <div className="flex items-center justify-start flex-col text-center md:text-left">
                 <p className="text-left">Welcome</p>
                 <p className="text-[#483C32] text-4xl md:text-6xl lg:text-7xl font-extrabold font-rubik -tracking-wider">
                     We Are Glad You're Here.

@@ -4,9 +4,9 @@ export default function Pastor() {
     return (
         <section
             id="about"
-            className="bg-[#483C32] w-full px-20 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
+            className="bg-[#483C32] w-full px-12 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
         >
-            <div className="flex items-center justify-center flex-col order-last">
+            <div className="flex items-center justify-center flex-col order-last text-center md:text-left">
                 <p className="text-[#F5F5DC] text-4xl md:text-6xl lg:text-7xl font-extrabold font-rubik -tracking-wider">
                     Meet Our Pastor.
                 </p>
