@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section
             style={{ backgroundImage: `url(${Church})` }}
-            className="w-full text-white py-32 md:py-36 lg:py-40 flex flex-col items-center justify-center bg-cover bg-center bg-fixed bg-no-repeat"
+            className="w-full text-white py-32 md:py-36 lg:py-40 xl:py-56 flex flex-col items-center justify-center bg-cover bg-center bg-fixed bg-no-repeat"
         >
             <p className="font-normal md:font-semibold font-manrope text-lg md:text-xl text-center">
                 Welcome to{' '}
