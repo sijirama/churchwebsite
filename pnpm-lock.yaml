@@ -8,6 +8,9 @@ dependencies:
   '@gsap/react':
     specifier: ^2.0.2
     version: 2.0.2(react@18.2.0)
+  '@studio-freight/lenis':
+    specifier: ^1.0.29
+    version: 1.0.29
   gsap:
     specifier: ^3.12.4
     version: 3.12.4
@@ -683,6 +686,10 @@ packages:
       lodash: 4.17.21
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@studio-freight/lenis@1.0.29:
+    resolution: {integrity: sha512-z/qS8ato5m2wlxQREYj5iALcxMrhhm06vEiLqYzLI+3HmpPzPscmJ8cXNiay4bj692vOot2hyTA3WP++AQVoKA==}
     dev: false
 
   /@types/chai@4.3.5:
