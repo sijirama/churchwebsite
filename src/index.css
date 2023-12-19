@@ -22,6 +22,7 @@ html.lenis {
     pointer-events: none;
 }
 
+/* suspected bug */
 #hero {
     background-size: 100%;
     transition-property: background-size;
@@ -37,11 +38,14 @@ html.lenis {
     transition-timing-function: ease-in-out;
 }
 
+/* suspected bug */
+
 #scroll {
     animation: bounce 1s infinite 2s;
 }
 
 @keyframes bounce {
+
     0%,
     20%,
     50%,

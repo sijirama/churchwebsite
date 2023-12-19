@@ -26,14 +26,6 @@ export default function Hero() {
             <p className="md:my-2 lg:my-3 font-manrope font-bold text-lg md:text-xl lg:text-2xl">
                 1004, Victoria Island, Lagos.
             </p>
-            <div className="flex gap-1 md:gap-0 items-center justify-center my-5 md:my-4 bg-black">
-                <div className="w-1/12">
-                    <img src="/mxlr.png" className=" w-2/3 " />
-                </div>
-                <p className="font-semibold md:font-semibold font-manrope text-red-900 text-base lg:text-lg">
-                    Join us on <span className="font-semibold underline">Mixlr</span>
-                </p>
-            </div>
             <div className="flex items-center flex-col gap-2 mt-4">
                 <div id="scroll" className="p-1 rounded-full border-white border-2">
                     <BsArrowDown className="text-xl font-extrabold" />
