@@ -1,4 +1,5 @@
 import Church from '/church.jpg'
+//import { gsap } from 'gsap'
 
 export default function Hero() {
     return (

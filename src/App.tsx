@@ -8,6 +8,8 @@ import Navbar from './components/Navbar'
 import Pastor from './components/Pastor'
 import Prompt from './components/Prompt'
 import Services from './components/Services'
+import { gsap } from 'gsap'
+export const maintimline = gsap.timeline({})
 
 function App() {
     return (
