@@ -13,10 +13,10 @@ export default function Hero() {
             style={{ backgroundImage: `url(${Church})` }}
             className="w-full text-white py-32 md:py-36 lg:py-40 3xl:py-56 flex flex-col items-center justify-center"
         >
+            <div></div>
             <p className="font-normal md:font-semibold font-manrope text-lg md:text-xl text-center">
                 Welcome to{' '}
                 <span
-
                     ref={word}
                     className="block my-1 font-extrabold text-4xl md:text-5xl lg:text-7xl lg:max-w-3xl -tracking-wider"
                 >

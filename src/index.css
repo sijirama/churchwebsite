@@ -26,13 +26,8 @@ html.lenis {
 #hero {
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
     transition: background-size 0.7s ease-in-out;
-}
-
-#hero:hover {
-    /* background-size: 107%; */
 }
 
 /* suspected bug */
@@ -42,7 +37,6 @@ html.lenis {
 }
 
 @keyframes bounce {
-
     0%,
     20%,
     50%,

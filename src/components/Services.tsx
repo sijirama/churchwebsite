@@ -10,8 +10,9 @@ export default function Services() {
             <p className="font-bold font-rubik text-lg md:text-xl lg:text-2xl">JOIN US FOR SERVICE</p>
             <p className="font-semibold font-rubik">SUNDAYS - 8:00AM & 10:30AM</p>
             <div className="max-w-xl text-center text-sm lg:text-sm">
-                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat
-                Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+                Join us for worship at The Foursquare Gospel Church! We invite you to experience inspiring services,
+                meaningful fellowship, and a welcoming community. Explore the joy of faith with us as we gather in the
+                spirit of unity and celebration. See you at our next service!
             </div>
         </section>
     )

@@ -15,7 +15,6 @@ import Lenis from '@studio-freight/lenis'
 import { useState, useEffect } from 'react'
 import { Loader } from './components/Loader'
 
-
 export const maintimline = gsap.timeline({})
 
 function App() {

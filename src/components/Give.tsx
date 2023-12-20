@@ -15,7 +15,7 @@ export default function Give() {
             <div>
                 <RiHandHeartLine size={80} className="text-gray-600" />
             </div>
-            <div className="max-w-xl font-extrabold font-rubik text-center text-3xl md:text-4xl lg:text-5xl text-gray-600">
+            <div className="max-w-xl font-extrabold font-rubik text-center text-3xl md:text-4xl lg:text-5xl text-gray-600 -tracking-wider">
                 "Give, and it will be given to you. A good measure, pressed down, shaken together, and running over will
                 be poured into your lap."
             </div>
@@ -31,7 +31,7 @@ export default function Give() {
                 <Modal.Header>
                     <Modal.Title className="font-manrope font-bold">Thank You</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body className="">
                     <div className="font-manrope font-semibold">
                         Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur
                         cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint
