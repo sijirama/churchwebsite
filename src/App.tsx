@@ -13,7 +13,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { TextPlugin } from 'gsap/TextPlugin'
 import Lenis from '@studio-freight/lenis'
 import { useState, useEffect } from 'react'
-import { Loader } from './components/Loader'
+//import { Loader } from './components/Loader'
 
 export const maintimline = gsap.timeline({})
 
@@ -50,7 +50,7 @@ function App() {
     gsap.ticker.lagSmoothing(0)
 
     if (isLoading) {
-        return <Loader />
+        //return <Loader />
     }
 
     return (
