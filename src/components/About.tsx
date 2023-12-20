@@ -4,13 +4,13 @@ export default function About() {
     return (
         <section
             id="about"
-            className="bg-[#F5F5DC] w-full px-12 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
+            className="bg-[#F5F5DC] w-full px-6 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
         >
             <div className="flex items-center justify-start flex-col text-center md:text-left">
                 <p className="text-[#483C32] text-4xl md:text-6xl lg:text-7xl font-extrabold font-kanit -tracking-wider">
                     We Are Glad You're Here.
                 </p>
-                <p className="text-[#483C32] text-xs lg:text-sm">
+                <p className="text-[#483C32] text-xs font-normal lg:text-base">
                     Greetings and a warm welcome to The Foursquare Gospel Church, an inclusive and vibrant community of
                     faith. We are thrilled to have you join us in the digital space where we gather to worship, connect,
                     and grow together. Whether you are a longtime member or a newcomer, you are a cherished part of our

@@ -4,13 +4,13 @@ export default function Pastor() {
     return (
         <section
             id="about"
-            className="bg-[#483C32] w-full px-12 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4"
+            className="bg-[#483C32] w-full px-8 lg:px-36 py-16 md:py-24 lg:py-28 grid lg:grid-cols-2 gap-8 md:gap-4 items-center"
         >
             <div className="flex items-center justify-center flex-col order-last text-center md:text-left ">
                 <p className="text-[#F5F5DC] text-4xl md:text-6xl lg:text-7xl font-extrabold font-kanit -tracking-wider w-full">
                     Meet Our Pastor.
                 </p>
-                <p className="text-[#F5F5DC] text-xs lg:text-sm">
+                <p className="text-[#F5F5DC] text-xs lg:text-base">
                     Step into the presence of Pastor Lawal, a remarkable spiritual leader handpicked by the divine to
                     shepherd The Foursquare Gospel Church. Pastor Lawal embodies a profound sense of devotion and
                     purpose as he guides our congregation on a collective journey of faith. Rooted in a deep connection
