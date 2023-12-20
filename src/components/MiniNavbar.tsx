@@ -55,23 +55,3 @@ export const MiniNavbar = () => {
         </nav>
     )
 }
-0 %,
-    20 %,
-    50 %,
-    80 %,
-    100 % {
-        transform: translateY(0);
-        /* Bounce at the top and bottom */
-    }
-
-40 % {
-    transform: translateY(-10px);
-    /* Move up during the bounce */
-}
-
-60 % {
-    transform: translateY(-7px);
-    /* Move down during the bounce */
-}
-}
-
