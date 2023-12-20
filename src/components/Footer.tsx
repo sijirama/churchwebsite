@@ -18,10 +18,10 @@ export default function Footer() {
                 <div className="col-span-2 font-manrope text-6xl md:text-7xl lg:text-9xl -tracking-widest font-extrabold text-black flex items-center justify-start">
                     Contact Us!
                 </div>
-                <div className="flex items-center justify-start">
+                <div className="flex items-center justify-center lg:justify-start  ">
                     <div
                         id="contactbutton"
-                        className="p-4 md:p-7 rounded-full bg-yellow-400 flex items-center justify-center"
+                        className="p-5 md:p-7 rounded-full bg-yellow-400 flex items-center justify-center"
                     >
                         <BsArrowDown size={25} />
                     </div>
