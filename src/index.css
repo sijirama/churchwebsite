@@ -24,18 +24,15 @@ html.lenis {
 
 /* suspected bug */
 #hero {
-    background-size: 100%;
-    transition-property: background-size;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-size 0.7s ease-in-out;
 }
 
 #hero:hover {
-    background-size: 107%;
-}
-
-#hero {
-    transition-duration: 0.7s;
-    transition-timing-function: ease-in-out;
+    /* background-size: 107%; */
 }
 
 /* suspected bug */
