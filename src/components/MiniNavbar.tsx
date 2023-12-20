@@ -24,6 +24,7 @@ export const MiniNavbar = () => {
     return (
         <nav
             ref={nav}
+            id="nav"
             className="text-xs md:text-sm lg:text-base font-manrope md:font-semibold lg:font-semibold flex items-center justify-center py-3 gap-7 text-black bg-mylightgray"
         >
             <AnchorLink

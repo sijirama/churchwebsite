@@ -13,7 +13,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { TextPlugin } from 'gsap/TextPlugin'
 import Lenis from '@studio-freight/lenis'
 import { useState, useEffect } from 'react'
-//import { Loader } from './components/Loader'
+import { Loader } from './components/Loader'
 
 export const maintimline = gsap.timeline({})
 
@@ -24,8 +24,9 @@ function App() {
     useEffect(() => {
         const handleLoad = () => {
             // All assets have loaded, update the loading state
-            setIsLoading(false)
-            //setIsLoading(true)
+            setTimeout(() => {
+                setIsLoading(false)
+            }, 1000)
         }
 
         // Attach the event listener
@@ -35,7 +36,7 @@ function App() {
         return () => {
             window.removeEventListener('load', handleLoad)
         }
-    }, [])
+    }, [isLoading])
 
     // register TextPlugin
     gsap.registerPlugin(TextPlugin)
@@ -49,8 +50,7 @@ function App() {
     gsap.ticker.lagSmoothing(0)
 
     if (isLoading) {
-        //return <Loader />
-        console.log(isLoading)
+        return <Loader />
     }
 
     return (

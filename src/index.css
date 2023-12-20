@@ -32,8 +32,13 @@ html.lenis {
 
 /* suspected bug */
 
-#scroll {
+#scroll,
+#contactbutton {
     animation: bounce 1s infinite 2s;
+}
+
+#seenenough {
+    animation: sway 1s infinite;
 }
 
 #loaderitem {
@@ -45,6 +50,20 @@ html.lenis {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
+#nav a {
+    color: black !important;
+}
+
+.social {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+/* Animation ---------------------------------------------------------------- */
 
 @keyframes gradient {
     0% {
@@ -79,5 +98,23 @@ html.lenis {
     60% {
         transform: translateY(-7px);
         /* Move down during the bounce */
+    }
+}
+
+@keyframes sway {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+        /* Bounce at the top and bottom */
+    }
+
+    40%,
+    60% {
+        transform: translateX(10px);
+        /* Move up during the bounce */
     }
 }
