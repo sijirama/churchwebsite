@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa'
 export default function Footer() {
     //const ICON_SIZE = 30
     return (
-        <main className="w-full bg-gray-50 z-10 lg:h-72 md:h-96 h-[40rem] flex flex-col">
+        <main className="w-full bg-gray-50 z-10 lg:h-72 md:h-96 h-[46rem] flex flex-col">
             <section className="grid grid-cols-3 md:grid-cols-4 gap-1 h-1/3 md:h-1/2 px-5 lg:px-0">
                 <div className="lg:flex items-center justify-start lg:justify-center hidden">
                     <div className="flex gap-2 items-center">
@@ -15,11 +15,14 @@ export default function Footer() {
                         <BsArrowRight id="seenenough" size={25} />
                     </div>
                 </div>
-                <div className="col-span-2 font-manrope text-7xl lg:text-9xl -tracking-widest font-extrabold text-black flex items-center justify-start">
+                <div className="col-span-2 font-manrope text-6xl md:text-7xl lg:text-9xl -tracking-widest font-extrabold text-black flex items-center justify-start">
                     Contact Us!
                 </div>
                 <div className="flex items-center justify-start">
-                    <div id="contactbutton" className="p-7 rounded-full bg-yellow-400 flex items-center justify-center">
+                    <div
+                        id="contactbutton"
+                        className="p-4 md:p-7 rounded-full bg-yellow-400 flex items-center justify-center"
+                    >
                         <BsArrowDown size={25} />
                     </div>
                 </div>
