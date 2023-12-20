@@ -36,7 +36,32 @@ html.lenis {
     animation: bounce 1s infinite 2s;
 }
 
+#loaderitem {
+    animation: bounce 2.5s infinite;
+}
+
+#loader {
+    background: linear-gradient(-45deg, #4c2115, #ba5a3c, #9e5c16, #8c653c);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 @keyframes bounce {
+
     0%,
     20%,
     50%,

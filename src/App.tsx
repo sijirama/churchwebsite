@@ -25,6 +25,7 @@ function App() {
         const handleLoad = () => {
             // All assets have loaded, update the loading state
             setIsLoading(false)
+            //setIsLoading(true)
         }
 
         // Attach the event listener
